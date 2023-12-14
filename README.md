@@ -20,7 +20,7 @@
 - [40 x 60 mm perfboard](https://www.amazon.com/MECCANIXITY-Prototyping-Soldering-Electronic-40mmx60mm/dp/B09NR8F8HX)
 - 4 X [470 Ω resistors](https://www.adafruit.com/product/2781)
 - [22AWG Solid core wire](https://www.adafruit.com/product/2988) 
-- Assorted screws and nuts for mounting part
+- Assorted screws and nuts for mounting parts
 
 
 ### Code:
