@@ -47,7 +47,9 @@
 - If both arms get misaligned, you can press the "Reset" button, that will make the stepper search for its home position again
 - If you spin the encoder arm too quickly, the stepper will stop, the "Mode/State" LED will blink and the the stepper will search for its home position again
 
-Documentation images and video can be found in the [Photos](/Photos/) folder. 
+Documentation images and video can be found in the [Photos](/Photos/) folder.
+
+![Photo with part names](/Photos/Encoder_front_parts.jpg)
 
 
 
