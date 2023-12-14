@@ -1,5 +1,7 @@
 ## DMA Fab Lab Encoder/Stepper demo project
 
+![Encoder demo gif](/Photos and video/Encoder.gif)
+
 ### Parts list:
 
 - [Arduino Leonardo](https://store.arduino.cc/products/arduino-leonardo-with-headers) - Could be anything, we used what we had around
