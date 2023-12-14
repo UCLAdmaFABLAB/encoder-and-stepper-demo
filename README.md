@@ -25,19 +25,30 @@
 
 ### Code:
 
-- Use the *EncoderProject_06* arduino sketch from the *Code* folder
+- Use the [*EncoderProject_06*](/Code/EncoderProject_06) arduino sketch from the *Code* folder
 - This project uses two libraries: the [Encoder library](https://github.com/PaulStoffregen/Encoder) and the [StepperDriver library](https://github.com/laurb9/StepperDriver/tree/master)
 - Code is a bit messy and not very commented for now
 
 ### Fabrication:
 
-- This project requires some laser cutting. There are two files in the *Fabrication* folder: 
+- This project requires some laser cutting. There are two files in the [*Fabrication*](/Fabrication) folder: 
     - *Electronics plate laser cut.ai* 
     - *Main plate laser cut.ai*. 
     - Both files contain instructions for materials
 - There are two optional 3D printed parts. Both can be found in the *Fabrication* folder:
     - *CableGuide v3* is a small cable routing part that can help managing the wires
     -  *Reed Switch Holder v2* supports the reed switch at the correct rotation relative to the magnet
+
+### How it works:
+
+- Once plugged in, the stepper motor will turn until it finds the "home" position (3 o'clock)
+- From there, you rotate the encoder arm by hand until it matches the 3 o'clock position
+- Now you can turn the encoder arm and the stepper motor will follow
+- If both arms get misaligned, you can press the "Reset" button, that will make the stepper search for its home position again
+- If you spin the encoder arm too quickly, the stepper will stop, the "Mode/State" LED will blink and the the stepper will search for its home position again
+
+Documentation images and video can be found in the [Photos](/Photos/) folder. 
+
 
 
 
