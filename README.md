@@ -1,6 +1,6 @@
 ## DMA Fab Lab Encoder/Stepper demo project
 
-![Encoder demo gif]("/Photos and video/Encoder.gif")
+![Encoder demo gif](/Photos/Encoder.gif)
 
 ### Parts list:
 
